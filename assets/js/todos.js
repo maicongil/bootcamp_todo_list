@@ -1,1 +1,4 @@
-console.log("TODO JS");
+
+$("li").on("click", function(){
+    $(this).toggleClass("completed");
+})
